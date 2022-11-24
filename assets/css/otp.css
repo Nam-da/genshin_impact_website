@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(rgba(12, 13, 30, 0.4), rgba(12, 13, 30, 0.4)),
+    url("https://genshin.global/wp-content/uploads/2022/05/hu-tao-pyro-profile-genshin-impact-1.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.login-box {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  translate: -50% -50%;
+  border-radius: 8px;
+}
+
+.form {
+  padding: 2rem;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form h1 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: #3b4354;
+  font-family: "Genshin-Font";
+  font-weight: normal;
+  text-align: center;
+}
+
+.form h3 {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #7f858a;
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.inputBox {
+  position: relative;
+  width: 90%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Input Field Designs */
+.inputBox input {
+  width: 50px;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid #3b4354;
+  border-radius: 5px;
+  outline: none;
+  color: #000000;
+  font-size: 0.95rem;
+  transition: 0.1s;
+}
+
+/* SubmitBtn */
+.submit-btn,
+.redirect {
+  margin: auto;
+  margin-top: 2rem;
+  width: 90%;
+  padding: 0.8em 1.6em;
+  background-color: #3b4354;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-btn:hover,
+.redirect:hover {
+  background-color: #414753;
+  transition: 0.2s;
+}
+
+.redirect {
+  display: none;
+}
+
+/* Other Options */
+.form a {
+  text-decoration: none;
+  color: #7f858a;
+}
+.form a:hover {
+  text-decoration: underline;
+}
+
+.passwd {
+  text-align: left;
+}
+
+.otherOptions {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

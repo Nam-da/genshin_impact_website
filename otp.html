@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Genshin Fonts -->
+
+    <link
+      rel="stylesheet"
+      href="fonts/stylesheet.css"
+      type="text/css"
+      charset="utf-8"
+    />
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="assets/css/otp.css" />
+    <title>Forgot Password: Genshin IMS</title>
+  </head>
+  <body>
+    <section class="bg">
+      <div class="login-box">
+        <form class="form" id="login" action="login.html" method="post">
+          <h1>Genshin IMS</h1>
+          <h3>
+            Please check your email for OTP <br />
+            Genshin IMS ©
+          </h3>
+
+          <div class="inputBox">
+            <input type="text" id="a" />
+            <input type="text" id="b" />
+            <input type="text" id="c" />
+            <input type="text" id="d" />
+          </div>
+
+          <input
+            type="button"
+            value="Send OTP"
+            class="submit-btn"
+            onclick="ass()"
+          />
+
+          <input
+            type="button"
+            value="Change Password"
+            class="redirect"
+            onclick="redirect()"
+          />
+
+          <div class="otherOptions">
+            <a href="forgot_password.html" class="passwd">Back</a>
+            <a href="#" class="register">Didn't Recieve OTP?</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="assets/js/otp.js"></script>
+  </body>
+</html>
